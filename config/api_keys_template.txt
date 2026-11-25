@@ -1,0 +1,12 @@
+# NewsBot 2.0 - API key template
+# NO REAL KEYS IN THIS FILE. Copy to config/api_keys.txt (git-ignored) and fill in locally.
+# The current system needs no API keys: translation uses the free deep-translator
+# backends (Google / MyMemory) and all models run locally.
+
+# Kaggle (only to download the dataset; normally stored in ~/.kaggle/kaggle.json)
+KAGGLE_USERNAME=your_kaggle_username
+KAGGLE_KEY=your_kaggle_key
+
+# Optional paid translation backends (not used by default)
+GOOGLE_TRANSLATE_API_KEY=
+DEEPL_API_KEY=

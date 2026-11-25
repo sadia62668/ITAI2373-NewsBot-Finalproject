@@ -1,0 +1,22 @@
+# NewsBot 2.0 - inferred from the notebook imports.
+# Versions = those shown in the notebook's Colab pip output where available;
+# others are minimum versions verified locally (Python 3.13).
+pandas>=2.2.3
+numpy>=1.26
+scikit-learn>=1.6.1
+nltk>=3.9.1
+spacy>=3.8.0,<3.9
+matplotlib>=3.10.0
+seaborn>=0.13.2
+langdetect>=1.0.9
+deep-translator>=1.11.4
+joblib>=1.3
+pytest>=8.0
+# Used only in the midterm part of the notebook
+wordcloud>=1.9.4
+plotly>=5.24.1
+# Dataset download in Colab
+kaggle>=1.6
+# Optional: semantic embeddings for search (config/settings.py USE_EMBEDDINGS=True)
+# sentence-transformers>=3.0
+# spaCy model (install separately): python -m spacy download en_core_web_sm
